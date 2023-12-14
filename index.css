@@ -4,3 +4,60 @@
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
 }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+
+}
+
+.wrap{
+    background: rgba(83, 14, 202, 0.267);
+        padding: 20px;
+        margin: 2px;
+        border-radius: 10px;
+        font-size: 20px;
+
+        
+}
+.wrap form input{
+    border: 0;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 10px;
+    box-shadow: -8px -8px -15px rgb(207, 159, 159);
+    cursor: pointer;
+
+}
+
+form .display{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0px;
+      padding: 2px;
+     
+      
+}
+form .display input{
+    width: 200px;
+    text-align: right;
+    flex: 1;
+    font-size: 46px;
+    box-shadow: none;
+
+}
+form input.button{
+    background-color: rgb(160, 206, 160);
+    width: 145px;
+
+}
+
+form .operator{
+    color: #2f3130;
+}
